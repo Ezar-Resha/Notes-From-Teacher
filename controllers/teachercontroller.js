@@ -1,6 +1,5 @@
 "use strict"
 const {Teacher, Subject, Student} = require("../models/index.js")
-const formatDate = require('../helpers/formatdate')
 
 
 class TeacherController{
