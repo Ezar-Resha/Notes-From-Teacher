@@ -34,7 +34,7 @@ class SubjectController{
 
         Subject.findByPk(id,{include:Document})
         .then((docs) =>{
-            res.render('documentDetail', {docs})
+            res.render('documentdetail', {docs})
         })
     }
 
