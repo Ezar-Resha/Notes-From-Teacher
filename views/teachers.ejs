@@ -1,0 +1,28 @@
+<%- include('navbar')%>
+<%- include('style')%>
+
+
+    <table style="margin-top:2%; margin-left:auto; margin-right:auto; width:80%">
+        <thead>
+            <tr>
+                <td> Sort By: <form action="/teachers"  method="get"> <button type="submit" name="sort" value="firstName"> First Name </button> <button type="submit" name="sort" value="lastName"> Last Name </button></form></td>
+            </tr>
+            <tr>
+                <th>name</th>
+                <th>Photo</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(el => {%>
+                <tr>
+                    <td><%= el.firstName %> <%= el.lastName %></td>
+                    <td><img src="<%= el.imageUrl %>" width="80" height="100"></td>
+                    <td><a href="/teachers/<%= el.id %>"><button style="background-color: blue;color: white" >Detail</button></a></td>
+                </tr>
+                
+            <%})%>
+        </tbody>
+    </table>
+</body>
+</html>

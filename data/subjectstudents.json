@@ -1,0 +1,192 @@
+[
+    {
+        "SubjectId" : 1,
+        "StudentId" : 1
+    },
+    {
+        "SubjectId" : 1,
+        "StudentId" : 2
+    },
+    {
+        "SubjectId" : 1,
+        "StudentId" : 4
+    },
+    {
+        "SubjectId" : 1,
+        "StudentId" : 6
+    },
+   {
+        "SubjectId" : 1,
+        "StudentId" : 9
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 1
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 2
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 3
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 4
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 6
+    },
+   {
+        "SubjectId" : 2,
+        "StudentId" : 9
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 8
+    },
+    {
+        "SubjectId" : 2,
+        "StudentId" : 10
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 2
+    },    {
+        "SubjectId" : 3,
+        "StudentId" : 4
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 3
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 5
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 6
+    },
+   {
+        "SubjectId" : 3,
+        "StudentId" : 7
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 9
+    },
+    {
+        "SubjectId" : 3,
+        "StudentId" : 10
+    },
+    {
+        "SubjectId" : 4,
+        "StudentId" : 1
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 2
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 4
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 6
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 7
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 9
+    },  {
+        "SubjectId" : 4,
+        "StudentId" : 10
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 1
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 2
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 3
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 6
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 8
+    },  {
+        "SubjectId" : 5,
+        "StudentId" : 10
+    },  {
+        "SubjectId" : 6,
+        "StudentId" : 3
+    },  {
+        "SubjectId" : 6,
+        "StudentId" : 5
+    },  {
+        "SubjectId" : 6,
+        "StudentId" : 10
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 1
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 2
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 3
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 5
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 6
+    },  {
+        "SubjectId" : 7,
+        "StudentId" : 9
+    },  {
+        "SubjectId" : 8,
+        "StudentId" : 2
+    },  {
+        "SubjectId" : 8,
+        "StudentId" : 6
+    },  {
+        "SubjectId" : 9,
+        "StudentId" : 1
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 1
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 2
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 3
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 4
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 5
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 6
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 7
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 8
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 9
+    },  {
+        "SubjectId" : 10,
+        "StudentId" : 10
+    }
+
+]

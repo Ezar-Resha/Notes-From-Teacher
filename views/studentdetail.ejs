@@ -1,0 +1,42 @@
+<%- include('navbar')%>
+<%- include('style')%>
+
+    <h1 style="text-align:center;margin-top:2%">Student Detail</h1>
+    <div id="studentDetail" style="text-align:center">
+        <table  style="margin-left:auto; margin-right:auto">
+            <tr>
+                <td style="text-align:center" colspan =2> <h1><%= data.firstName %> <%=data.lastName%> </h1></td>
+            </tr>
+            <tr >
+                <td> <img src="<%=data.imageUrl %>" style="width:150px;height:150px"></img></td>
+                <td style="text-align:left"> 
+                    <p1>Nama: <%= data.firstName %> <%= data.lastName %></p1><br>
+                    <p1>Tanggal lahir   : <%= formatDate(data.dateOfBirth) %></p1><br>
+                    <p1>Email   : <%= data.email %></p1><br>
+                    <p1>Hp  : <%= data.phoneNumber %></p1><br>
+            </td>
+            </tr>
+            <tr>
+                <td> <h2>subjects taken: </h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <% data.Subjects.forEach(el => {%>
+            
+                        <%= el.subjectName %> <br>
+                    <%})%>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="/students/<%= data.id %>/edit"><button>Edit Detail</button></a></td>
+                <td><a href="/students/<%= data.id %>/delete"><button>Delete Student</button></a></td>
+            </tr>
+        </table>
+    </div>
+
+
+        
+
+    
+</body>
+</html>

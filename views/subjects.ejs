@@ -1,0 +1,25 @@
+<%- include('navbar')%>
+<%- include('style')%>
+
+
+    <table style="margin-top:2%; margin-left:auto; margin-right:auto; width:80%">
+        <thead>
+            <tr>
+                <th>Subject Name</th>
+                <th>Teacher</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(el => {%>
+                <tr>
+                    <td><%= el.subjectName %></td>
+                    <td><%= el.Teacher.fullName%></td>
+                    <td><a href="/subjects/<%= el.id %>"><button style="background-color: blue;color: white" >Detail</button></a></td>
+                </tr>
+                
+            <%})%>
+        </tbody>
+    </table>
+</body>
+</html>

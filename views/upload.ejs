@@ -1,0 +1,15 @@
+<%- include('navbar')%>
+<%- include('style')%>
+<div style="margin-left:auto; margin-right:auto; margin-top:2%">
+    <form action="/subjects/<%=el.id%>/documents/upload" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"> <br>
+
+        <label for="description">Brief description:</label><br>
+        <input type="name" id="description" name="description"><br>
+        <input type="file" name="document"/>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

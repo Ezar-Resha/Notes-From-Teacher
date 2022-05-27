@@ -1,0 +1,34 @@
+<%- include('navbar')%>
+<%- include('style')%>
+
+    <h1 style="text-align:center;margin-top:2%">Subject Detail</h1>
+
+    <div id="subject Detail" style="text-align:center">
+        <table  style="margin-left:auto; margin-right:auto">
+            <tr>
+                <td> Subject Name : <%=data.subjectName%></td>
+            </tr>
+            <tr>
+                <td> Teacher Name : <%=data.Teacher.fullName%></td>
+            </tr>
+            <tr>
+                <td> Students :</td>
+            </tr>
+            
+                <% data.Students.forEach(element => { %>
+                    <tr>
+                        <td> <%=element.firstName%> <%=element.lastName%></td>
+                    </tr>
+                <% }) %>
+            <tr>
+                <td> <form action="/subjects/<%=data.id%>/documents" method="get"><button type="submit"> Subject Documents </button></form></td>
+            </tr>
+        </table>
+    </div>
+
+
+        
+
+    
+</body>
+</html>

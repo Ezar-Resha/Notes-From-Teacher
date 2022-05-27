@@ -1,0 +1,11 @@
+[{"id":1,"subjectName":"Matematika","TeacherId":1},
+{"id":2,"subjectName":"Bahasa Indonesia","TeacherId":2},
+{"id":3,"subjectName":"Bahasa Inggris","TeacherId":3},
+{"id":4,"subjectName":"Sejarah","TeacherId":4},
+{"id":5,"subjectName":"Ekonomi","TeacherId":5},
+{"id":6,"subjectName":"Biologi","TeacherId":6},
+{"id":7,"subjectName":"Fisika","TeacherId":7},
+{"id":8,"subjectName":"Kimia","TeacherId":8},
+{"id":9,"subjectName":"Olahraga","TeacherId":9},
+{"id":10,"subjectName":"Seni Budaya","TeacherId":10}
+]

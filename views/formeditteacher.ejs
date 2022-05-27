@@ -1,0 +1,31 @@
+<%- include('navbar')%>
+<%- include('style')%>
+
+<div style="margin-left:auto; margin-right:auto; margin-top:2%">
+    <form action="/teachers/<%= data.id %>/edit" method="post">
+        <label for="firstName">First name:</label><br>
+        <input type="text" id="firstName" name="firstName" value="<%= data.firstName %>"><br>
+
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="lastName" value="<%= data.lastName %>"><br>
+
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="<%= data.email %>"><br>
+
+        <label for="imageUrl">Image Url</label><br>
+        <input type="text" id="imageUrl" name="imageUrl" value="<%= data.imageUrl %>"><br>
+
+        <label for="phoneNumber">Phone number</label><br>
+        <input type="text" id="phoneNumber" name="phoneNumber" value="<%= data.phoneNumber %>"><br>        
+
+        <input type="submit" value="Submit">
+    </form><br>
+    <% if (error) {%>
+        <% error.forEach(el => {%>
+            <p1 style="color:red"><%= el %></p1><br>
+        <%})%>
+    <%}%>
+</div>
+</body>
+</html>

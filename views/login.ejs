@@ -1,0 +1,42 @@
+<%- include('header') %>
+<%- include('style')%>
+
+
+<div class="page">
+    <form action="/login" method="POST" class="login">
+        <p> <h1>Teacher Management App</h1></p>
+    <label class="field field_v1">
+        <input class="field__input" type="text" placeholder="Name" name="name"> 
+            <span class="field__label-wrap">
+            <span class="field__label">Name</span>
+            </span>
+    </label><br>
+    <label class="field field_v2">
+        <input class="field__input" type="password"placeholder="Password" name="password">
+            <span class="field__label-wrap">
+            <span class="field__label">Password</span>
+        </span>
+    </label>     
+    <br>
+    <br>
+    <button class="field_input" type="submit">Login</button> <button class="field_input" type="submit" formaction="/register" method="get"> Register</button>
+
+
+    <% if (reg) { %>
+        <p style="color:red;font-size:smaller"> Registration successfull!</p>
+    <% } %>
+    
+    <% if (out) { %>
+        <p style="color:red;font-size:smaller"> Logged out succesfully</p>
+    <% } %>
+    <% if (err) { %>
+        <p style="color:red;font-size:smaller"> <%=err%> </p>
+    <% } %>
+    </form>
+
+    
+</div>
+
+
+
+<%- include('footer') %>
