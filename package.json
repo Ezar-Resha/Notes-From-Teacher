@@ -4,7 +4,8 @@
   "description": "Fungsi utama aplikasi ini: <br>\r 1. Mempermudah management data guru dan murid.\r 2. Mempermudah akses informasi murid bagi guru.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
   "keywords": [],
   "author": "",
